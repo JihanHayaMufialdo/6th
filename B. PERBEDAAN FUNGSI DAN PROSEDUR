@@ -1,0 +1,28 @@
+Pada dasarnya tidak ada perbedaan yang begitu signifikan antar prosedur dan fungsi keduanya merupakan sebuah sub program yang dapat mengerjakan tugas tertentu, 
+namun jika di cermati fungsi dideklarasi dengan menggunakan tipe data misalnya int penjumlahan(), fungsi tersebut wajib harus menghasilkan nilai balik (return value). 
+Sementara untuk prosedur di deklarasikan biasanya dengan tipe void. Tipe void adalah salah satu jenis tipe data yang tidak berarti apa-apa (Valueless). 
+Tipe void biasanya digunakan untuk prosedur yang pada dasarnya tidak mempunyai nilai balik. 
+Karena tipe void bersifat valueless maka pada saat pendeklarasian prosedur tidak menyebutkan tipe void pun tidak apa-apa.
+
+
+//FUNGSI
+Fungsi dalam Bahasa C++ diawali dengan sebuah tipe data seperti int, Boolean, float, dll dan fungsi memiliki sebuah nilai kembalian yang di tandai dengan “return”. 
+
+Contoh fungsi menghitung luas persegi panjang :
+
+int luaspersegi(int panjang, int lebar){ 
+    int hasil = panjang * lebar; return hasil;
+}
+
+
+//PROSEDUR
+Prosedur dalam Bahasa C++ diawali dengan tipe data “void” yang artinya kosong. 
+Artinya procedure tidak memiliki tipe data dan tidak memiliki nilai kembalian. 
+
+Contoh prosedur menampilkan angka 1 sampai batas yang di tentukan :
+
+void luaspersegipanjang(int batas){
+  for(int i = 1; i < batas; i++) { 
+      cout << i << endl; 
+  }
+}
