@@ -1,1 +1,7 @@
+Fungsi biasanya membawa informasi lewat nilai/variabel yang berada di parameternya.
 
+//BENTUK UMUM
+
+int fungsiKu(parameter1, parameter2) {
+  // Perintah yang dieksekusi;
+}
