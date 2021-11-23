@@ -20,25 +20,20 @@ long jumlah(int a[], int n)
     return total;
 }
 
-//Fungsi utama
 int main(){
     int X[100];  //Elemen maksimal adalah 100
     int BanyakElemen;
-    long HASIL;
+    long hasil;
 
     cout<<"Masukkan banyaknya elemen yang diinginkan : ";
-	cin>>BanyakElemen;
+    cin>>BanyakElemen;
     cout<<endl;
 
-    //Memanggil fungsi InputArray
     InputArray(X, BanyakElemen);
 
-    //Memanggil fungsi jumlah dan menampung hasilnya
-    //Ke Variabel HASIL
-    HASIL=jumlah(X, BanyakElemen);
+    hasil=jumlah(X, BanyakElemen);
 
-    //Menampilkan hasil
-    cout<<"\nHasilnya = "<<HASIL<<endl;
+    cout<<"\nHasilnya = "<<hasil<<endl;
 
     return 0;
 }
