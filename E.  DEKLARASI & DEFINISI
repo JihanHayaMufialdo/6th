@@ -1,1 +1,30 @@
+Function terdiri dari 2 bagian yaitu sebagai berikut :
 
+* Deklarasi
+-> nama fungsi, return value dan parameter jika menggunakan parameter.
+Deklarasi ditulis sebelum menu utama (main).
+
+* Definisi
+-> baris kode berada dalam tubuh fungsi atau di dalam {} yang akan dieksekusi.
+Definisi ditulis setelah menu utama (main).
+
+Namun, mendaklarasikan dan mendefinisikan fungsi bisa dilakukan sekaligus keduanya.
+
+//CONTOH 
+
+#include <iostream>
+using namespace std;
+
+// Fungsi Deklarasi
+void func();
+
+// fungsi main
+int main() {
+  func();  // memanggil fungsi
+  return 0;
+}
+
+// Fungsi Definisi
+void func() {
+  cout << "ddp asik";
+}
