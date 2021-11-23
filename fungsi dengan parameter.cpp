@@ -5,7 +5,7 @@ int coba(int a,int b)
 {
     a=10;
     b=20;
-    cout<<a<<", "<<b<<endl;
+    cout << a << ", " << b <<endl;
 }
 
 int main()
@@ -15,9 +15,9 @@ int main()
     a=1;
     b=2;
     
-    cout<<a<<", "<<b<<endl;
+    cout << a << ", " << b <<endl;
     
     coba (a,b); 
     
-    cout<<a<<", "<<b<<endl;
+    cout << a << ", " << b <<endl;
 }
