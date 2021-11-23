@@ -30,11 +30,9 @@ int main()
     cout<<"Bilangan ke-1 : "<<bilangan1<<endl;
     cout<<"Bilangan ke-2 : "<<bilangan2<<endl;
     cout<<endl;
-
     
     TukarBilangan(bilangan1, bilangan2);
 
-    //Menampilkan nilai akhir setelah pemanggilan fungsi tukar
     cout<<"Keadaan Akhir"<<endl;
     cout<<"Bilangan ke-1 : "<<bilangan1<<endl;
     cout<<"Bilangan ke-2 : "<<bilangan2<<endl;
