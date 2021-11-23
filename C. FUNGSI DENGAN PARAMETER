@@ -9,10 +9,19 @@ Dalan C++ ada tiga jenis parameter yang dapat dilewatkan, yaitu parameter masuka
 
 * Parameter masukan, 
   digunakan sebagai nilai masukan dalam sebuah fungsi. Nilai tersebut kemudian akan diproses oleh fungsi untuk menghasilkan sebuah nilai kembalian (return value).
+  
+* Parameter keluaran, 
+  berfungsi utnuk menampung nilai yang dihasilkan dari proses di dalam fungsi. 
+  parameter keluaran pada umumnya digunakan dalan fungsi bertiper void (fungsi yang tidak mengembalikan nilai).
+  
+* Parameter masukan/ keluaran, adalah parameter yang digunakan sebagai masukan dan juga keluaran. 
+  Mula-mula nilai dari parameter ini akan digunakan sebagai masukan untuk proses di dalam fungsi, 
+  setelah proses selesai maka hasilnya akan disimpan kembali ke dalam parameter tersebut sebagai nilai keluaran.
+
 
 //BENTUK UMUM
 
-Tipe_data nama_fungsi (parameter1, parameter2, ...)
+tipe_data nama_fungsi (parameter1, parameter2, ...)
 {
     //statement;
   
