@@ -1,7 +1,21 @@
-Fungsi biasanya membawa informasi lewat nilai/variabel yang berada di parameternya.
+// Fungsi dengan Parameter
+Pendefinisian fungsi yang tidak dikuti dengan daftar parameter, hasil yang didapat selalu bernilai tetap. 
+Dengan pendefinisian fungsi berparameter, hasil yang diberikan dapat bersifat dinamis, tentunya bergantung dari nilai parameter yang dimasukkan.
+Parameter yang terdapat pada pendefinisian sebuah fungsi disebut dengan parameter formal, 
+sedangkan parameter pada saat pemanggilan disebut dengan parameter aktual. Jumlah serta tipe data antara parameter formal dan parameter aktual harus sesuai.
+
+// Jenis parameter
+Dalan C++ ada tiga jenis parameter yang dapat dilewatkan, yaitu parameter masukan, Keluaran dan masukan/keluaran.
+
+* Parameter masukan, 
+  digunakan sebagai nilai masukan dalam sebuah fungsi. Nilai tersebut kemudian akan diproses oleh fungsi untuk menghasilkan sebuah nilai kembalian (return value).
 
 //BENTUK UMUM
 
-int fungsiKu(parameter1, parameter2) {
-  // Perintah yang dieksekusi;
+Tipe_data nama_fungsi (parameter1, parameter2, ...)
+{
+    //statement;
+  
+    return nilai_yang_akan_dikembalikan;
 }
+
