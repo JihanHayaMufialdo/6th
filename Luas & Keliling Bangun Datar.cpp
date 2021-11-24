@@ -161,20 +161,37 @@ int main(){
 	cout << "6. Layang-Layang\n";
 	cout << "7. Jajar Genjang\n";
 	cout << "8. Belah Ketupat\n";
-	cout << "pilih : ";
+	cout << "\npilih : ";
 	cin >> pilih;
 	cout << "\n\n";
 	
 	switch(pilih){
-		case 1 : persegi();
-		case 2 : persegipanjang();
-		case 3 : segitiga();
-		case 4 : trapesium();
-		case 5 : lingkaran();
-		case 6 : layanglayang();
-		case 7 : jajar genjang();
-		case 8 : belahketupat();
-		default : "tidak terdaftar";
+		case 1 : 
+			persegi();
+			break;
+		case 2 : 
+			persegipanjang();
+			break;
+		case 3 : 
+			segitiga();
+			break;
+		case 4 : 
+			trapesium();
+			break;
+		case 5 : 
+			lingkaran();
+			break;
+		case 6 : 
+			layanglayang();
+			break;
+		case 7 : 
+			jajargenjang();
+			break;
+		case 8 : 
+			belahketupat();
+			break;
+		default : 
+			cout << "tidak terdaftar";
 	}
 }
 
