@@ -129,5 +129,52 @@ void jajargenjang(){
 	}
 }
 
+void belahketupat(){
+	float s,d1,d2;
+	
+	cout << "\n----- BELAH KETUPAT -----\n\n";
+	cout << "sisi (m)       : ";
+	cin  >> s; 
+	cout << "diagonal 1 (m) : ";
+	cin  >> d1;
+	cout << "diagonal 2 (m) : ";
+	cin  >> d2;
+	
+	if(s!=0){
+	cout << "\nKeliling : " << 4*s<< " m\n";
+	}
+	
+	if(d1!=0 && d2!=0){
+	cout << "\nLuas\t : " << (d1*d2)/2 << " m^2";
+	}
+}
 
+int main(){
+	
+	int pilih;
+	cout << "= LUAS DAN KELILING BANGUN DATAR =\n";
+	cout << "1. Persegi\n";
+	cout << "2. Persegi Panjang\n";
+	cout << "3. Segitiga\n";
+	cout << "4. Trapesium\n";
+	cout << "5. Lingkaran\n";
+	cout << "6. Layang-Layang\n";
+	cout << "7. Jajar Genjang\n";
+	cout << "8. Belah Ketupat\n";
+	cout << "pilih : ";
+	cin >> pilih;
+	cout << "\n\n";
+	
+	switch(pilih){
+		case 1 : persegi();
+		case 2 : persegipanjang();
+		case 3 : segitiga();
+		case 4 : trapesium();
+		case 5 : lingkaran();
+		case 6 : layanglayang();
+		case 7 : jajar genjang();
+		case 8 : belahketupat();
+		default : "tidak terdaftar";
+	}
+}
 
