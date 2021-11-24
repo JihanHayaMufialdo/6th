@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main (){
+void lingkaran(){
 	float r;
 	float phi = 3.14;
 	
@@ -12,3 +12,7 @@ int main (){
 	cout << "\nKeliling : " << 2*phi*r << " m\n";
 	cout << "Luas\t : " << phi*r*r << " m^2";
 }
+
+
+
+
