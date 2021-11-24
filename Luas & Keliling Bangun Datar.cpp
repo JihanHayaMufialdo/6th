@@ -1,6 +1,17 @@
 #include <iostream>
 using namespace std;
 
+void persegi(){
+	float s;
+	
+	cout << "\n------ PERSEGI ------\n\n";
+	cout << "sisi (m) : ";
+	cin  >> s; 
+	
+	cout << "Keliling : " << 4*s << " m\n";
+	cout << "Luas\t : " << s*s << " m^2";
+}
+
 void lingkaran(){
 	float r;
 	float phi = 3.14;
