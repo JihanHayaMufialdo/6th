@@ -81,9 +81,13 @@ void lingkaran(){
 	cout << "jari-jari (m) : ";
 	cin  >> r; 
 	
+	if(r!=0){
 	cout << "\nKeliling : " << 2*phi*r << " m\n";
 	cout << "Luas\t : " << phi*r*r << " m^2";
+	}
 }
+
+
 
 
 
