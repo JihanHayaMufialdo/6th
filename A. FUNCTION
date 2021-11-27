@@ -4,7 +4,8 @@ Fungsi merupakan sebuah sub program yang biasanya digunakan untuk mengerjakan su
 Contoh misalnya kita membuat fungsi menghitung luas lingkaran, maka tugas dari fungsi itu yaitu menghasilkan hasil dari perhitungan luas lingkaran 
 dan sebaiknya tidak mengerjakan tugas yang lain yang tidak sesuai dengan definisi fungsi tersebut.
 
-C++ dan hampir semua bahasa pemrograman mengizinkan kita untuk menulis functions, atau biasa juga disebut procedures, methods, dan subroutines.
+C++ dan hampir semua bahasa pemrograman mengizinkan kita untuk menulis functions, 
+atau biasa juga disebut procedures, methods, dan subroutines.
 
 
 //Kenapa Pakai Function?
@@ -30,4 +31,3 @@ Keterangan:
 - int merupakan tipe data dari fungsi tersebut yang nantinya fungsi ini akan menghasilkan nilai balik (return value) berdasarkan tipe fungsi tersebut.
 - fungsiKu merupakan nama fungsi tersebut.
 - blok didalam tanda {} akan dieksekusi saat fungsi tersebut dipanggil.
-
