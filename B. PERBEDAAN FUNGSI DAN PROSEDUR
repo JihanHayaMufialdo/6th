@@ -12,6 +12,8 @@ Contoh fungsi menghitung luas persegi panjang :
 
 int luaspersegi(int panjang, int lebar){ 
     int hasil = panjang * lebar; return hasil;
+    
+    return hasil;
 }
 
 
