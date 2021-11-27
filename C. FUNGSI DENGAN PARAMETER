@@ -4,6 +4,7 @@ Dengan pendefinisian fungsi berparameter, hasil yang diberikan dapat bersifat di
 Parameter yang terdapat pada pendefinisian sebuah fungsi disebut dengan parameter formal, 
 sedangkan parameter pada saat pemanggilan disebut dengan parameter aktual. Jumlah serta tipe data antara parameter formal dan parameter aktual harus sesuai.
 
+
 // Jenis parameter
 Dalan C++ ada tiga jenis parameter yang dapat dilewatkan, yaitu parameter masukan, Keluaran dan masukan/keluaran.
 
@@ -27,4 +28,3 @@ tipe_data nama_fungsi (parameter1, parameter2, ...)
   
     return nilai_yang_akan_dikembalikan;
 }
-
