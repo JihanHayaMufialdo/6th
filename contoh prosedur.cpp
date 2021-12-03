@@ -10,8 +10,8 @@ void penjumlahan()
    cout << hasil;
 }
 
-
-int main() {
+int main() 
+{
    penjumlahan();
    
 }
