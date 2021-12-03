@@ -14,7 +14,6 @@ void TukarBilangan(int X,int Y)
     cout<<endl;
 }
 
-
 int main()
 {
     
