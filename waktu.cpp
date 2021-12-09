@@ -3,6 +3,13 @@
 
 using namespace std;
 
+void waktu();
+
+
+int main(){
+	waktu();
+}
+
 void waktu(){
 	
 	int n;
@@ -15,6 +22,3 @@ void waktu(){
 	}
 }
 
-int main(){
-	waktu();
-}
