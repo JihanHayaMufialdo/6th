@@ -15,5 +15,9 @@ int main()
     a=1;
     b=2;
     
+    cout << a << ", " << b <<endl;
     
+    coba (a,b); 
+    
+    cout << a << ", " << b <<endl;
 }
